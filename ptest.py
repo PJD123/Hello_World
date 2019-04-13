@@ -13,3 +13,5 @@ dst = os.listdir(dstPath)
 
 for index, file in enumerate(src):
     print(index, file)
+
+# Versions control is not a substitute for documentation
