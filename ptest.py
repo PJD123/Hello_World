@@ -17,4 +17,11 @@ for index, file in enumerate(src):
 # Versions control is not a substitute for documentation
 
 # need to make the whole backslash problem invisible
+
+srcset = set(src)
+dstset = set(dst)
+print("Converted to set")
+print(srcset)
+
+
 # Further comments
